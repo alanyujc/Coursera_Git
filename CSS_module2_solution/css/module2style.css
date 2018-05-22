@@ -1,4 +1,4 @@
-/****** This is the my CSS stylesheet for the Module 2 Coding Assignment. ******/
+/****** This is my CSS stylesheet for the Module 2 Coding Assignment. ******/
 
 /********** Base styles **********/
 * {
@@ -8,21 +8,26 @@ h1
  {
   margin-bottom: 25px;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
 }
+
+html { font-size: 16px; }
 
 p
 {
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: #3d7abb;
   width: 90%;
   height: 100%;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
   color: white;
 }
 
-.sectionTitleBox {
+.sectionTitleBox_chicken {
   position: absolute;
   width: 150px;
   height: 30px;
@@ -31,8 +36,40 @@ p
   right: 0%;
   top: 0;
   border: 1px solid black;
-  background-color: yellow;
+  background-color: #e89b0d;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+}
+
+.sectionTitleBox_beef {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  margin-top: 0%;
+  margin-bottom: 40px;
+  right: 0%;
+  top: 0;
+  border: 1px solid black;
+  background-color: #ef325e;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.sectionTitleBox_sushi {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  margin-top: 0%;
+  margin-bottom: 40px;
+  right: 0%;
+  top: 0;
+  border: 1px solid black;
+  background-color: #e8ebef;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 .sectionTitle {
