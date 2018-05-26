@@ -78,8 +78,6 @@ p
 
 .sectionParagraph {
   margin-top: 35px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* Simple Responsive Framework. */
@@ -167,7 +165,7 @@ p
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 49%;
   }
   .col-md-7 {
     width: 58.33%;
